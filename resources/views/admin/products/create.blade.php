@@ -1,6 +1,7 @@
 @extends('admin.layout')
+@section('title','Add New Product')
 @section('body')
-@section('title', 'Add New Product')
+
 <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
     <div class="container mt-3">
         <div class="bg-white shadow rounded-lg">
@@ -30,7 +31,7 @@
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <!-- Product Name -->
                         <div>
-                            <label for="title" class="block text-gray-700">Product Name</label>
+                            <label for="title" class="block text-yellow-100">Product Name</label>
                             <input 
                                 type="text" 
                                 name="title" 

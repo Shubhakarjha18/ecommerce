@@ -15,13 +15,13 @@
               <li><a href="{{ route('categories.index')  }}"> <i class="icon-grid"></i>Categories </a></li>
               <li><a href="{{route('admin.orders.index')}}"> <i class="fa fa-user"></i>Orders </a></li>
              
-              <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>Products </a>
+              <li><a href="#" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>Products </a>
                 <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
-                  <li><a href="{{ route('products.create')  }}">Create Products</a></li>
+                  <li><a href="{{ route('products.create') }}">Create Products</a></li>
                   <li><a href="{{ route('products.index')}}">View Products</a></li>
                   
                 </ul>
               </li>
               
-      
+      </ul>
     </nav>

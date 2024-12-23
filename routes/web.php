@@ -26,7 +26,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/dashboard', [HomeController::class, 'login_home'])->name('dashboard');
 
     // Product Routes
-    Route::get('products/{product}', [ProductController::class, 'show'])->name('products.show');
+    Route::get('products/view/{product}', [ProductController::class, 'show'])->name('products.show');
 
     // Cart Routes
     Route::post('/cart/add', [CartController::class, 'addToCart'])->name('cart.add');
